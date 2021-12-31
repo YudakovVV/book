@@ -1,114 +1,131 @@
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
-body{
-    font-family: sans-serif;
-    color:#202020;    
+@font-face {
+  font-family: "Museo Cyrl 900";
+  src: url("../fonts/MuseoCyrl-900.woff2") format("woff2"),
+    url("../fonts/MuseoCyrl-900.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
 }
-.header{
-    background-color:#F1F1F1;
-    padding: 22px 0;
+
+@font-face {
+  font-family: "Museo Cyrl 300";
+  src: url("../fonts/MuseoCyrl-300.woff2") format("woff2"),
+    url("../fonts/MuseoCyrl-300.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
 }
-.header-container{
-    display: flex;
-    justify-content: space-between;
-    max-width: 1140px;
-    margin: auto;    
+body {
+  font-family: "Roboto";
+  color: #202020;
 }
-.logo{
-    text-transform: uppercase;
-    font-weight: 700;
+.header {
+  background-color: #f1f1f1;
+  padding: 22px 0;
 }
-.nav-link{
-    color:#202020;    
-    font-size:14px;
-    font-weight: 400;
-    text-decoration: none;
-    margin-left: 11px;
-    margin-right: 11px;
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1140px;
+  margin: auto;
 }
-.login{  
-    color:inherit;      
-    font-size:14px;
-    font-weight: 400;
-    text-decoration: none;
+.logo {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.nav-link {
+  color: #202020;
+  font-size: 14px;
+  font-weight: 400;
+  text-decoration: none;
+  margin-left: 11px;
+  margin-right: 11px;
+}
+.login {
+  color: inherit;
+  font-size: 14px;
+  font-weight: 400;
+  text-decoration: none;
 }
 /*Главная секция*/
-.hero{
-    padding-top: 62px;
-    padding-bottom: 71px;
-    align-items: center;
+.hero {
+  padding-top: 62px;
+  padding-bottom: 71px;
+  align-items: center;
 }
-.hero-container{
-    display: flex;
-    align-items: center;
-    max-width: 1140px;
-    margin: auto;        
+.hero-container {
+  display: flex;
+  align-items: center;
+  max-width: 1140px;
+  margin: auto;
 }
-.hero-image{
-    margin-right: 122px;
+.hero-image {
+  margin-right: 122px;
 }
-.author{
-    display: block;
-    font-size: 24px;
-    font-weight: 400;
-    margin-bottom: 22px;
+.author {
+  display: block;
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 22px;
 }
-.title{
-    font-size:54px;
-    font-weight: 700;
-    margin-top: 0;
-    margin-bottom: 15px;
+.title {
+  font-family: "Museo Cyrl 900";
+  font-size: 54px;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 15px;
 }
-.subtitle{
-    display: block;
-    font-size:24px;
-    font-weight: 400; 
-    line-height: 29px;
-    margin-bottom: 48px;
+.subtitle {
+  display: block;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29px;
+  margin-bottom: 48px;
 }
-.info{      
-    display: flex;
-    flex-wrap: wrap; 
-    margin-bottom: 49px;   
+.info {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 49px;
 }
-.info-text{
-    flex-basis: 45%;
-    font-size: 16px;
-    font-weight: 400;
-    margin-bottom: 16px;
+.info-text {
+  flex-basis: 45%;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 16px;
 }
-.price{
-    display: flex;
-    align-items: center;
-    margin-bottom: 48px;
+.price {
+  display: flex;
+  align-items: center;
+  margin-bottom: 48px;
 }
-.pricetag{
-    font-weight: 400;
-    font-size: 55px;
-    margin-right: 64px;
+.pricetag {
+  font-weight: 400;
+  font-size: 55px;
+  margin-right: 64px;
 }
-.favorites{
-    font-size:16px;
-    font-weight: 400;
-    text-decoration: none;
-    color: inherit;
+.favorites {
+  font-size: 16px;
+  font-weight: 400;
+  text-decoration: none;
+  color: inherit;
 }
-.button{
-    font-size:16px;
-    font-weight:700;
-    padding: 22px 50px;
-    border-radius: 5px;
-    border: 2px solid transparent;
+.button {
+  font-size: 16px;
+  font-weight: 700;
+  padding: 22px 50px;
+  border-radius: 5px;
+  border: 2px solid transparent;
 }
-.button-primary{
-    background-color:#F89C02;
-    color: #fff;
-    margin-right: 20px;
-    
+.button-primary {
+  background-color: #f89c02;
+  color: #fff;
+  margin-right: 20px;
 }
-.button-outline{
-    color:#F89C02;
-    border: 2px solid #F89C02;
-    text-decoration: none;
+.button-outline {
+  color: #f89c02;
+  border: 2px solid #f89c02;
+  text-decoration: none;
 }
